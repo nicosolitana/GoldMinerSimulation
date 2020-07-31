@@ -6,15 +6,12 @@
         xmlns:local="clr-namespace:GoldMinerSimulation"
         xmlns:properties="clr-namespace:GoldMinerSimulation.Properties"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300 " Width="295.556" WindowStartupLocation="CenterScreen">
-    <Grid x:Name="mainGrid" Margin="0,0,-6.667,-1.333" Background="#FF86827E">
-        <Button x:Name="startSimulation" Content="Start Simulation" HorizontalAlignment="Left" Height="31" Margin="68,206,0,0" VerticalAlignment="Top" Width="151" Click="startSimulation_Click" FontFamily="Arial" FontSize="14" FontWeight="Medium"/>
-        <TextBox x:Name="gridSizeTxt" HorizontalAlignment="Left" Height="26" Margin="136,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" FontFamily="Arial" FontSize="14" FontWeight="Medium" TextAlignment="Center"/>
-        <Label Content="Grid Size :" HorizontalAlignment="Left" Height="26" Margin="62,119,0,0" VerticalAlignment="Top" Width="74" FontFamily="Arial" FontSize="14" FontWeight="Medium"/>
-        <Label Content="Movement:" HorizontalAlignment="Left" Height="31" Margin="62,145,0,0" VerticalAlignment="Top" Width="87" FontFamily="Arial" FontSize="14" FontWeight="Medium"/>
-        <RadioButton x:Name="randomBtn" Content="Random " HorizontalAlignment="Left" Margin="68,176,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontFamily="Arial" FontSize="14" FontWeight="Medium"/>
-        <RadioButton x:Name="smartBtn" Content="Smart " HorizontalAlignment="Left" Margin="149,176,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontFamily="Arial" FontSize="14" FontWeight="Medium"/>
-        <Label Content="GOLD MINER" HorizontalAlignment="Left" Height="47" Margin="23,30,0,0" VerticalAlignment="Top" Width="243" FontFamily="Arial" FontSize="35" FontWeight="Bold"/>
-        <Label Content="SIMULATION" HorizontalAlignment="Left" Height="47" Margin="29,58,0,0" VerticalAlignment="Top" Width="243" FontFamily="Arial" FontSize="35" FontWeight="Bold"/>
+        Title="MainWindow" Height="470.417" Width="561.389" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="mainGrid" Margin="0,0,-6.667,-1.333">
+        <Image x:Name="backgroundImg" HorizontalAlignment="Left" Height="447" VerticalAlignment="Top" Width="555" Source="pack://siteoforigin:,,,/Icons/new/Banner.png"/>
+        <Button x:Name="startSimulation" Content="START" HorizontalAlignment="Left" Height="31" Margin="389,344,0,0" VerticalAlignment="Top" Width="123" Click="startSimulation_Click" FontFamily="Arial" FontSize="14" FontWeight="Bold" Opacity="0.7"/>
+        <TextBox x:Name="gridSizeTxt" HorizontalAlignment="Left" Height="25" Margin="427,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="14" FontWeight="Medium" TextAlignment="Center" Opacity="0.6"/>
+        <RadioButton x:Name="randomBtn" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="427,308,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontFamily="Arial" FontSize="14" FontWeight="Medium"/>
+        <RadioButton x:Name="smartBtn" Content="" HorizontalAlignment="Left" Margin="427,285,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontFamily="Arial" FontSize="14" FontWeight="Medium" RenderTransformOrigin="0.366,0.591"/>
     </Grid>
 </Window>

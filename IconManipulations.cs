@@ -31,12 +31,27 @@ namespace GoldMinerSimulation
                 {
                     case 3: icon = Properties.Resources.potOfGold; break;
                     case 4: icon = Properties.Resources.pitBomb; break;
-                    case 5: icon = Properties.Resources.miner; break;
                     case 6: icon = Properties.Resources.beacon; break;
+                    case 7: icon = Properties.Resources.minerNorth; break;
+                    case 8: icon = Properties.Resources.minerEast; break;
+                    case 9: icon = Properties.Resources.minerWest; break;
+                    case 10: icon = Properties.Resources.minerSouth; break;
+                    case 11: icon = Properties.Resources.winner; break;
                     default: icon = Properties.Resources.blank; break;
                 }
             }
             return icon;
+        }
+
+        public static int GetMinerIcon(Direction dir)
+        {
+            switch (dir)
+            {
+                case Direction.North: return 7;
+                case Direction.East: return 8;
+                case Direction.West: return 9;
+                default: return 10;
+            }
         }
     }
 }

@@ -18,6 +18,7 @@ namespace GoldMinerSimulation
         {
             InitializeComponent();
             randomBtn.IsChecked = true;
+            backgroundImg.Source = IconManipulations.ConvertIcon(Properties.Resources.Banner);
         }
 
         private void startSimulation_Click(object sender, RoutedEventArgs e)

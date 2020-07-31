@@ -63,6 +63,16 @@ namespace GoldMinerSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Banner {
+            get {
+                object obj = ResourceManager.GetObject("Banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap beacon {
             get {
                 object obj = ResourceManager.GetObject("beacon", resourceCulture);
@@ -93,9 +103,39 @@ namespace GoldMinerSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap miner {
+        internal static System.Drawing.Bitmap minerEast {
             get {
-                object obj = ResourceManager.GetObject("miner", resourceCulture);
+                object obj = ResourceManager.GetObject("minerEast", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minerNorth {
+            get {
+                object obj = ResourceManager.GetObject("minerNorth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minerSouth {
+            get {
+                object obj = ResourceManager.GetObject("minerSouth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minerWest {
+            get {
+                object obj = ResourceManager.GetObject("minerWest", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,16 +173,6 @@ namespace GoldMinerSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rockOne1 {
-            get {
-                object obj = ResourceManager.GetObject("rockOne1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rockThree {
             get {
                 object obj = ResourceManager.GetObject("rockThree", resourceCulture);
@@ -163,9 +193,9 @@ namespace GoldMinerSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rockTwo1 {
+        internal static System.Drawing.Bitmap winner {
             get {
-                object obj = ResourceManager.GetObject("rockTwo1", resourceCulture);
+                object obj = ResourceManager.GetObject("winner", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

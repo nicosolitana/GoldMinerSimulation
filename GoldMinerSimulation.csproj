@@ -113,5 +113,62 @@
   <ItemGroup>
     <None Include="Icons\new\GoldMine.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\new\Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\new\minerWest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\new\minerEast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\new\minerNorth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\new\minerSouth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\beacon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\GoldMine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\minerEast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\minerNorth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\minerSouth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\minerWest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\pitBomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\potOfGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\rockOne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\rockThree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\rockTwo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\GameIcons\winner.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

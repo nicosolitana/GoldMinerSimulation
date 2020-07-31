@@ -5,7 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GoldMinerSimulation"
         mc:Ignorable="d"
-        Title="SimulationWin" Height="450" Width="800" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    <Grid x:Name="mainGrid" Margin="0,0,-0.4,-0.4" Background="#FF656565">
-    </Grid>
+        Title="SimulationWin" Height="501.295" Width="800" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="mainGrid" Margin="0,0,-0.333,-0.667" Background="#FF656565"/>
 </Window>
